@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+/*scss files*/
+@import "./variables";
+@import "./fonts";
+@import "./reset";
+
+// components
+@import "./navbar";
+@import "./hero";

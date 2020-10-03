@@ -1,7 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Header from "./header"
+import Navigation from "./Navigation"
+import { Container } from "react-bootstrap"
 
 // smooth-scroll
 // refer to https://www.npmjs.com/package/smooth-scroll
@@ -23,10 +24,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
-      </div>
+      <Container fluid>
+        <Navigation siteTitle={data.site.siteMetadata.title} />
+        <div>
+          <main>{children}</main>
+        </div>
+      </Container>
     </>
   )
 }
