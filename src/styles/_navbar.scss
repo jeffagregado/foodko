@@ -5,12 +5,8 @@
 }
 
 .navbar {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-
-  > .book-now {
-    border: 1px solid #fbdda7;
-    border-radius: 50px;
-    padding: 0.5rem 3rem;
-  }
 }

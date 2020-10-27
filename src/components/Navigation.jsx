@@ -24,7 +24,7 @@ function Navigation(props) {
             </li>
           </ul>
         </div>
-        <button className="book-now">Book Now</button>
+        <button className="btn btn-outline-primary">Book Now</button>
       </nav>
     </>
   )

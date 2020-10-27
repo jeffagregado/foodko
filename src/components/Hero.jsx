@@ -1,5 +1,6 @@
 import React from "react"
 import banner from "../images/banner.png"
+import Button from "./Button"
 
 function Hero() {
   return (
@@ -20,6 +21,7 @@ function Hero() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate, dolor?
             </h2>
+            <Button text="Explore now" secondary />
           </div>
         </div>
       </div>

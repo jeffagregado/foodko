@@ -1,0 +1,77 @@
+.section {
+  width: 90%;
+  margin: 2rem auto;
+
+  &.picks {
+    background-color: #fafafa;
+    padding: 5rem 10rem;
+  }
+
+  .food-options {
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .quickpicks {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #f58672;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .pick-lists {
+    display: flex;
+    flex-direction: column;
+
+    li {
+      margin: 1rem 0;
+
+      button {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .col-md {
+    &.top-picks {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &.popular {
+    .title {
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        color: #f58672;
+        font-weight: 800;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin: 1.5rem 0;
+      }
+    }
+
+    .recipes-card {
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+
+    .btn-moreRecipes {
+      justify-content: center;
+    }
+  }
+
+  .footer-sect {
+    margin: 0;
+    padding: 2rem;
+    background-color: #fafafa;
+  }
+}

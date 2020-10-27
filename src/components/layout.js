@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
     <>
       <Container fluid>
         <Navigation siteTitle={data.site.siteMetadata.title} />
-        <div>
+        <div className="content">
           <main>{children}</main>
         </div>
       </Container>
