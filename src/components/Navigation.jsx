@@ -8,7 +8,7 @@ function Navigation(props) {
         <Link to="/" className="navbar-brand">
           {props.siteTitle}
         </Link>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse mynav" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto nav-links">
             <li className="nav-item active">
               <Link to="/">Home</Link>
