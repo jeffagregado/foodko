@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Navigation from "./Navigation"
 import { Container } from "react-bootstrap"
+import Footer from "./Footer"
 
 // smooth-scroll
 // refer to https://www.npmjs.com/package/smooth-scroll
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
         <Navigation siteTitle={data.site.siteMetadata.title} />
         <div className="content">
           <main>{children}</main>
+          <Footer />
         </div>
       </Container>
     </>

@@ -1,0 +1,50 @@
+.section {
+  &.footer-sect {
+    margin: 0 auto;
+    padding: 9rem 9rem 1rem;
+    background-color: #fafafa;
+
+    .footer-container {
+      margin-bottom: 10rem;
+
+      .foot-info {
+        margin-bottom: 2rem;
+
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 1.5rem;
+        }
+
+        h3 {
+          line-height: 2rem;
+        }
+      }
+    }
+
+    .foot-links {
+      justify-content: end;
+
+      p {
+        margin-bottom: 2.5rem;
+        font-weight: 700;
+      }
+
+      ul li {
+        line-height: 2rem;
+        color: #8d919c;
+      }
+
+      .info,
+      .help-links,
+      .our-menu {
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    .copyright {
+      p {
+        color: #8d919c;
+      }
+    }
+  }
+}
