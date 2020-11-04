@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Container fluid>
-        <Navigation siteTitle={data.site.siteMetadata.title} />
+        <Navigation siteTitle="Foodko" />
         <div className="content">
           <main>{children}</main>
           <Footer />
