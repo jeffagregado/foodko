@@ -5,6 +5,10 @@
   &.picks {
     background-color: #fafafa;
     padding: 5rem 10rem;
+
+    @media only screen and (max-width: 620px) {
+      padding: 5rem 2rem;
+    }
   }
 
   .food-options {
